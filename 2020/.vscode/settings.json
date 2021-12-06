@@ -1,0 +1,24 @@
+{
+  "terminal.integrated.env.linux": {
+    "PATH": "${env:PATH}:."
+  },
+  "ocaml.sandbox": {
+    "kind": "opam",
+    "switch": "4.11.2"
+  },
+  "ocaml.repl.path": "utop",
+  "ocaml.repl.args": [
+    "-I",
+    "_build",
+    "-init",
+    ".vscode/utop_init.txt"
+  ],
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "exec/backup.sh"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+#load "_build/lib.cmo";;
+#require "graphics";;
+#require "str";;
