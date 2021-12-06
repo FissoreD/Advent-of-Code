@@ -1,4 +1,4 @@
-# This are the solutions of 2021 Advent of Code in Python
+# These are the solutions of 2021 Advent of Code in Python
 
 Notice :
 The create.sh is a executable file that takes a str S as param and create

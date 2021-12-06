@@ -1,4 +1,4 @@
-# This are the solutions of 2020 Advent of Code in Python
+# These are the solutions of 2020 Advent of Code in Python
 
 Notice :
 solution are made with the OCalm langauge
