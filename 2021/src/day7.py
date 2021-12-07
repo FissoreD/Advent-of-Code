@@ -10,10 +10,12 @@ def get_line():
 def day7_1():
     C = get_line()
     current_value = float('inf')
-    for c in C:
+    for c in range(max(C)):
         c1 = sum([abs(x - c)*C[x] for x in C])
         if c1 < current_value:
             current_value = c1
+        if c1 > current_value:
+            break
     return current_value
 
 
